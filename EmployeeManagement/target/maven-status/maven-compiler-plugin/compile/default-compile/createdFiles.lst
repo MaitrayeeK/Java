@@ -1,0 +1,11 @@
+entities\Groupmaster.class
+ejb\EmployeeSessionBean.class
+entities\Department.class
+auth\SecureAuth.class
+employeemanagement\resources\JakartaEE8Resource.class
+config\Config.class
+employeemanagement\JakartaRestConfiguration.class
+record\KeepRecord.class
+entities\Projecttb.class
+ejb\EmployeeSessionBeanLocal.class
+entities\Employeetb.class

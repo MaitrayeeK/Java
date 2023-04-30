@@ -1,0 +1,9 @@
+entities\BillDetail.class
+entities\Customer.class
+bean\JSFManagedBean.class
+internalexamsln\JakartaRestConfiguration.class
+ejb\BusinessLogicBeanLocal.class
+entities\Product.class
+ejb\BusinessLogicBean.class
+entities\BillMaster.class
+internalexamsln\resources\JakartaEE8Resource.class

@@ -1,0 +1,11 @@
+ejb\PublishingBean.class
+cdibean\PublishingManagedBean.class
+internalprac\JakartaRestConfiguration.class
+entities\Customer.class
+entities\Address.class
+entities\Subscription.class
+cdibean\PublishingManagedBean$1.class
+client\RestClient.class
+ejb\PublishingBeanLocal.class
+internalprac\resources\JakartaEE8Resource.class
+rest\PublishingRest.class

@@ -1,0 +1,6 @@
+com\mycompany\external_prectical\resources\JakartaEE8Resource.class
+com\mycompany\external_prectical\JakartaRestConfiguration.class
+My_CDI\empCdiBeans.class
+benas\emp_beansLocal.class
+benas\emp_beans.class
+entity\Employees.class

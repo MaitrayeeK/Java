@@ -1,0 +1,5 @@
+restclient\RestClient.class
+servlet\RestServlet$1.class
+samplerestapi\resources\JakartaEE8Resource.class
+samplerestapi\JakartaRestConfiguration.class
+servlet\RestServlet.class

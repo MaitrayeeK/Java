@@ -1,0 +1,6 @@
+singletonbean\resources\JakartaEE8Resource.class
+ejb\SecondBean.class
+ejb\SingleBean.class
+ejb\FirstBean.class
+servlets\SingleServlet.class
+singletonbean\JakartaRestConfiguration.class

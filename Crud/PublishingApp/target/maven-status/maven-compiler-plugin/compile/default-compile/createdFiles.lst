@@ -1,0 +1,13 @@
+ejb\PublishingBean.class
+entity\Subscription.class
+entity\Customer_.class
+client\PublishingClient.class
+com\mycompany\publishingapp\resources\JakartaEE8Resource.class
+entity\Address.class
+entity\Customer.class
+servlets\Publishing.class
+entity\Address_.class
+com\mycompany\publishingapp\JakartaRestConfiguration.class
+entity\Subscription_.class
+rest\PublishingResource.class
+ejb\PublishingBeanLocal.class

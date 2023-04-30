@@ -1,0 +1,12 @@
+employeecrud\resources\JakartaEE8Resource.class
+bean\EmployeeCDIBean$3.class
+ejb\EmployeeBean.class
+client\EmpClient.class
+employeecrud\JakartaRestConfiguration.class
+bean\EmployeeCDIBean$1.class
+rest\EmpResource.class
+bean\EmployeeCDIBean.class
+entities\Department.class
+ejb\EmployeeBeanLocal.class
+bean\EmployeeCDIBean$2.class
+entities\Employee.class

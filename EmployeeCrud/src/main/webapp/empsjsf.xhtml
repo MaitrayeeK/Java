@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+    <h:head>
+        <title>Facelet Title</title>
+    </h:head>
+    <h:body>
+        <f:view>
+
+            <center>
+            <h:form>
+                <h1><h:outputText value="List"/></h1>
+                <h:dataTable value="#{employeeCDIBean.emps}" var="item" border="1" cellpadding="5" cellspacing="5">
+                    <h:column>
+                        <f:facet name="header">
+                            <h:outputText value="Id"/>
+                        </f:facet>
+                        <h:outputText value="#{item.id}"/>
+                    </h:column>
+                    <h:column>
+                        <f:facet name="header">
+                            <h:outputText value="Name"/>
+                        </f:facet>
+                        <h:outputText value="#{item.name}"/>
+                    </h:column>
+                    <h:column>
+                        <f:facet name="header">
+                            <h:outputText value="Salary"/>
+                        </f:facet>
+                        <h:outputText value="#{item.salary}"/>
+                    </h:column>
+                    <h:column>
+                        <f:facet name="header">
+                            <h:outputText value="Department"/>
+                        </f:facet>
+                        <h:outputText value="#{item.department.name}"/>
+                    </h:column>
+                    <h:column>
+                        <h:commandLink value="Edit" action="#{employeeCDIBean.getEmp(item.id)}"/>
+                    </h:column>
+                    <h:column>
+                        <h:commandLink value="Delete" action="#{employeeCDIBean.removeEmp(item.id, item.department.id)}"/>
+                    </h:column>
+                </h:dataTable>
+            </h:form>
+                </center>
+        </f:view>
+
+    </h:body>
+</html>
+
